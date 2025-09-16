@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
+
+    <order:order id="O001" customer="Nguyễn Hoàng Trấn" date="2025-09-16">
+        <prod:item id="P001" quantity="2" price="7000000">
+            <prod:name>Điện thoại Xiaomi note 14</prod:name>
+        </prod:item>
+        <prod:item id="P002" quantity="1" price="25000000">
+            <prod:name>Laptop Asus Rog Strix G15</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="O002" customer="Lê Công Thức" date="2025-03-05">
+        <prod:item id="P003" quantity="3" price="1500000">
+            <prod:name>Tai nghe Bluetooth Havit</prod:name>
+        </prod:item>
+        <prod:item id="P004" quantity="2" price="1200000">
+            <prod:name>Áo sơ mi nam cao cấp</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="1" price="3500000">
+            <prod:name>Máy hút bụi thông minh</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>

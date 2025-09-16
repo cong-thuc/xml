@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+    <book>
+        <title>Lập trình Python cơ bản</title>
+        <author>Lê Công Thức</author>
+        <year>2021</year>
+        <genre>Công nghệ thông tin</genre>
+    </book>
+    
+    <book>
+        <title>Cơ sở dữ liệu</title>
+        <author>Nguyễn Hoàng Trấn</author>
+        <year>2019</year>
+        <genre>Học thuật</genre>
+    </book>
+    
+    <book>
+        <title>Văn học Việt Nam hiện đại</title>
+        <author>Vũ Đình Sang</author>
+        <year>2020</year>
+        <genre>Văn học</genre>
+    </book>
+</library>
