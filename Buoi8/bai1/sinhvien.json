@@ -1,0 +1,10 @@
+{
+  "hoten": "Le Cong Thuc",
+  "tuoi": 21,
+  "gioitinh": "Nam",
+  "diemtrungbinh": 8.5,
+  "diachi": {
+    "thanhpho": "Ha Noi",
+    "quocgia": "Viet Nam"
+  }
+}

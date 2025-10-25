@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DanhSachNhanVien",
+  "type": "object",
+  "properties": {
+    "nhanvien": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer", "minimum": 1 },
+          "hoten": { "type": "string" },
+          "chucvu": { "type": "string" },
+          "mucluong": { "type": "number", "minimum": 0 },
+          "trangthai": { 
+            "type": "string",
+            "enum": ["Dang lam", "Nghi viec"]
+          }
+        },
+        "required": ["id", "hoten", "chucvu", "mucluong", "trangthai"]
+      }
+    }
+  },
+  "required": ["nhanvien"]
+}
